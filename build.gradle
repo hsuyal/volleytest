@@ -1,3 +1,4 @@
+//app的gradle，和settings.gradle合并使用
 buildscript{
 	repositories{
 		mavenCentral()
