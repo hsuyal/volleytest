@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:3:5-37
+	android:versionName
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:4:5-28
+		INJECTED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml
+		INJECTED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:7:5-9:41
+MERGED from [VolleyTest.libs:volley:unspecified] D:\workingfiles\ASProject\VolleyTest\build\intermediates\exploded-aar\VolleyTest.libs\volley\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:9:9-38
+		INJECTED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml
+		INJECTED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:8:9-34
+		INJECTED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml
+		INJECTED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml
+application
+ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:11:5-25:19
+MERGED from [VolleyTest.libs:volley:unspecified] D:\workingfiles\ASProject\VolleyTest\build\intermediates\exploded-aar\VolleyTest.libs\volley\unspecified\AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:15:9-40
+activity#com.example.volleytest.MainActivity
+ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:17:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\workingfiles\ASProject\VolleyTest\AndroidManifest.xml:22:27-74

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\workingfiles\ASProject\VolleyTest\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="D:\workingfiles\ASProject\VolleyTest\build\intermediates\pre-dexed\debug\android-support-v4-e1b28010627e58cf1199fe101f8e59e99dfa4b7a.jar" />
+    </item>
+    <item
+        jar="D:\workingfiles\ASProject\VolleyTest\build\intermediates\exploded-aar\VolleyTest.libs\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="606b99a11dee2d0422b6d64ed00179ef83397acb">
+        <dex dex="D:\workingfiles\ASProject\VolleyTest\build\intermediates\pre-dexed\debug\classes-2799772124da480b0a1ed5a42179b29c9f760aa2.jar" />
+    </item>
+
+</items>
