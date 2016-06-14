@@ -102,6 +102,7 @@ public class MainActivity extends Activity {
 	    } 
 	       
 	    /**
+		
 	     * 显示到ImageView，使用单例模式进行使用，有一个请求队列
 	     */ 
 	    private void showImageByNetworkImageView(){ 
