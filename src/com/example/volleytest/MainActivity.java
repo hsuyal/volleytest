@@ -79,7 +79,8 @@ public class MainActivity extends Activity {
 	     * getImageListener有三个参数(ImageView view, int defaultImageResId, int errorImageResId)
 	     */ 
 	    private void loadImageByVolley(){ 
-	        String imageUrl="http://avatar.csdn.net/6/6/D/1_lfdfhl.jpg"; 
+		//模拟删除一东西
+	      //  String imageUrl="http://avatar.csdn.net/6/6/D/1_lfdfhl.jpg"; 
 	        RequestQueue requestQueue = Volley.newRequestQueue(this); 
 	        final LruCache<String, Bitmap> lruCache = new LruCache<String, Bitmap>(20); 
 	        ImageCache imageCache = new ImageCache() { 
