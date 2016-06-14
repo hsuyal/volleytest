@@ -73,13 +73,9 @@ public class MainActivity extends Activity {
 	       
 	       
 	    /**
-	     * ����Volley�첽����ͼƬ
 	     * 
-	     * ע�ⷽ������:
 	     * getImageListener(ImageView view, int defaultImageResId, int errorImageResId)
-	     * ��һ������:��ʾͼƬ��ImageView
-	     * �ڶ�������:Ĭ����ʾ��ͼƬ��Դ
-	     * ����������:���ش���ʱ��ʾ��ͼƬ��Դ
+	     * 通过Volley加载图片
 	     */ 
 	    private void loadImageByVolley(){ 
 	        String imageUrl="http://avatar.csdn.net/6/6/D/1_lfdfhl.jpg"; 
@@ -105,7 +101,7 @@ public class MainActivity extends Activity {
 	    } 
 	       
 	    /**
-	     * ����NetworkImageView��ʾ����ͼƬ
+	     * 显示到ImageView
 	     */ 
 	    private void showImageByNetworkImageView(){ 
 	        String imageUrl="http://avatar.csdn.net/6/6/D/1_lfdfhl.jpg"; 
