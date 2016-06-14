@@ -74,8 +74,8 @@ public class MainActivity extends Activity {
 	       
 	    /**
 	     * 
-	     * getImageListener(ImageView view, int defaultImageResId, int errorImageResId)
-	     * 通过Volley加载图片
+	     * 不同三个参数getImageListener(ImageView view, int defaultImageResId, int errorImageResId)
+	     * 使用单例模式，通过Volley加载图片
 	     */ 
 	    private void loadImageByVolley(){ 
 	        String imageUrl="http://avatar.csdn.net/6/6/D/1_lfdfhl.jpg"; 
@@ -93,9 +93,7 @@ public class MainActivity extends Activity {
 	            } 
 	        }; 
 	        ImageLoader imageLoader = new ImageLoader(requestQueue, imageCache); 
-	     // mimageView��һ��ImageViewʵ��  
-	     // ImageLoader.getImageListener�ĵڶ���������Ĭ�ϵ�ͼƬresource id  
-	     // ����������������ʧ��ʱ�����Դid������ָ��Ϊ0  
+	   
 	        ImageListener listener = ImageLoader.getImageListener(mImageView, R.drawable.ic_launcher,R.drawable.ic_launcher); 
 	        imageLoader.get(imageUrl, listener); 
 	    } 
