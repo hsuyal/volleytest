@@ -73,8 +73,8 @@ public class MainActivity extends Activity {
 	       
 	       
 	    /**
-	     * 
-	     * getImageListener(ImageView view, int defaultImageResId, int errorImageResId)
+	     * 不含参数，采用自定义形式，LRUCache的实现方式
+	     * getImageListener有三个参数(ImageView view, int defaultImageResId, int errorImageResId)
 	     * 通过Volley加载图片
 	     */ 
 	    private void loadImageByVolley(){ 
@@ -93,15 +93,13 @@ public class MainActivity extends Activity {
 	            } 
 	        }; 
 	        ImageLoader imageLoader = new ImageLoader(requestQueue, imageCache); 
-	     // mimageView��һ��ImageViewʵ��  
-	     // ImageLoader.getImageListener�ĵڶ���������Ĭ�ϵ�ͼƬresource id  
-	     // ����������������ʧ��ʱ�����Դid������ָ��Ϊ0  
+	     // 采用系统自定义的方式
 	        ImageListener listener = ImageLoader.getImageListener(mImageView, R.drawable.ic_launcher,R.drawable.ic_launcher); 
 	        imageLoader.get(imageUrl, listener); 
 	    } 
 	       
 	    /**
-	     * 显示到ImageView
+	     * 显示到ImageView，使用单例模式进行使用，有一个请求队列
 	     */ 
 	    private void showImageByNetworkImageView(){ 
 	        String imageUrl="http://avatar.csdn.net/6/6/D/1_lfdfhl.jpg"; 
